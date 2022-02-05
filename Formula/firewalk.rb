@@ -2,8 +2,8 @@ class Firewalk < Formula
   desc "Firewalk HTTP Test Server"
   homepage "https://github.com/Alamofire/Firewalk"
 
-  url "https://github.com/Alamofire/Firewalk/releases/download/0.6.1/firewalk.zip", :using => :curl
-  sha256 "171042657a144866e8b810980d765b190acca368d7599fd124cbe7731b4781f7"
+  url "https://github.com/Alamofire/Firewalk/releases/download/0.7.0/firewalk.zip", :using => :curl
+  sha256 "3fdb0c5c39e3bf3d586f9a384835c6a501fcd979e3392b7f8c04f4a40ab803ee"
 
   def install
     bin.install "firewalk"
